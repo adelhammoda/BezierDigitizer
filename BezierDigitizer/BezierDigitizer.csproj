@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Models\.vs\Models\v17\DocumentLayout.json" />
+    <Content Include="Models\.vs\ProjectSettings.json" />
+    <Content Include="Models\.vs\VSWorkspaceState.json" />
+    <Content Include="Utils\.vs\ProjectSettings.json" />
+    <Content Include="Utils\.vs\Utils\v17\DocumentLayout.json" />
+    <Content Include="Utils\.vs\VSWorkspaceState.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Models\.vs\Models\FileContentIndex\735d2d56-a8c1-449e-a0b0-ba6d69021a72.vsidx" />
+    <None Include="Models\.vs\slnx.sqlite" />
+    <None Include="Utils\.vs\slnx.sqlite" />
+    <None Include="Utils\.vs\Utils\FileContentIndex\89fb3d8b-8a43-4b70-b368-b1b09ed3046e.vsidx" />
+  </ItemGroup>
+
+</Project>
